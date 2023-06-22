@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Suhu</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="input">
+            <div class="title">
+                <h1>Website Kalkulator Suhu</h1>
+                <span>BY REIDZ</span>
+            </div>
+            
+            <p class="text">Masukkan suhu derajat Celcius (C°) ke kotak dibawah, lalu klik tombol Konversi untuk mendapatkan hasil Konversi dalam bentuk Fahrenheit :</p>
+            <div class="form-box">
+                <h4>Celsius (°C)</h4>
+                <input type="number" class="form-control" id="celcius" placeholder="celciusInput">
+                <button id="konversi">Konversi</button>
+                <p class="text-right">"Celsius (°C) ke Fahrenheit (°F)"
+                </p>
+            </div>
+    
+            <div class="form-box">
+                <h4>Fahrenheit (°F)</h4>
+                <input type="number" class="form-control" id="fahrenheit" placeholder="fahrenheitInput">
+                <button  id="reverse">Reverse</button>
+                <p class="text-right">"Fahrenheit (°F) ke Celsius (°C)"</p>
+            </div>
+            
+            <div class="form-kal">
+                <h4>Cara Kalkulasi :
+                     <span id="hasil1">"Celsius (°C) ke Fahrenheit (°F)"</span>
+                     <span id="hasil2">"Fahrenheit (°F) ke Celsius (°C)"</span>
+                </h4>
+                <input type="text" class="form-control" id="kalkulasi" placeholder="kalkulasi..." disabled>
+
+                <button id="reset">Reset</button>
+            </div>
+
+            <div class="text-box">
+                <div class="p">
+                    <h4>Celsius (°C) ke Fahrenheit (°F)</h4>
+                    <hr>
+                    <p>Suhu S dalam derajat Fahrenheit (°F) sama dengan Suhu S dalam (9/5 kali derajat Celcius (°C)) tambah 32.
+                    </p>
+                        <span>°F = (9/5 x °C) + 32.</span>
+                    
+                </div>
+                <div class="p">
+                    <h4>Fahrenheit (°F) ke Celsius (°C)</h4>
+                    <hr>
+                    <p>Suhu S dalam derajat Celcius (°C) sama dengan Suhu S dalam 5/9 kali (derajat Fahrenheit (°F) kurang 32).
+                    </p>
+                        <span>°C = 5/9 x (°F - 32).</span>
+                    
+                </div>
+            </div>
+            
+            <div class="footer">
+                <ul>
+                    <li><a href="https://www.instagram.com/reid.qz" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="
+                        https://github.com/reidzf8" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://wa.me/+6282329611066" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+
+                    <p>All rights reserved &copy;ReidzOnlineCours2023</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- javaScript -->
+    <script src="scirpt.js"></script>
+</body>
+
+</html>
